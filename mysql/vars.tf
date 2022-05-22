@@ -32,4 +32,5 @@ variable "master_username" {
 variable "master_password" {
   description = "The password for the master user of the DB"
   type        = string
+  default     = "test"
 }
